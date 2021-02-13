@@ -1,0 +1,25 @@
+{
+  "name": "selfbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyx0/selfbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyx0/selfbot/issues"
+  },
+  "homepage": "https://github.com/lyx0/selfbot#readme",
+  "dependencies": {
+    "dank-twitch-irc": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  }
+}
