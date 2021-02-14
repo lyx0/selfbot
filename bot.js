@@ -26,6 +26,13 @@ cron.schedule('34 * * * *', () => {
     client.say('teischente', '+enterdungeon');
 });
 
+client.on('PRIVMSG', (msg) => {
+  if (msg.displayName === 'HuwoBot' &&
+      msg.messageText.startsWith('A Raid Event at Level') &&
+      msg.channelName.toLowerCase() === 'teischente') {
+      nb.Twitch.say('teischente', '+join');
+  }
+});
 
 // See below for more events
 
